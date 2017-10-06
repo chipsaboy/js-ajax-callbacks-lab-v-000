@@ -1,4 +1,4 @@
-var displayError = () => $('#errors').html("An error occurred, please try again.")
+var displayError = () => $('#errors').html("I'm sorry, there's been an error. Please try again.")
 
 var searchRepositories = () => {
   const searchTerms = $('#searchTerms').val()
