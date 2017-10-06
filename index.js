@@ -1,6 +1,3 @@
-$(document).ready(function (){
-});
-
 var displayError = () => $('#errors').html("An error occurred, please try again.")
 
 var searchRepositories = () => {
@@ -41,3 +38,6 @@ var renderSearchResult = (result) => {
 }
 
 var renderSearchResults = (data) => data.items.map( result => renderSearchResult(result))
+
+$(document).ready(function (){
+});
